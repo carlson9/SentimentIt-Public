@@ -2,7 +2,7 @@ Qualtrics.SurveyEngine.addOnload(function()
 {	
     this.disableNextButton();
 	var that = this;
-	var worker_id = "${q://QID29/ChoiceTextEntryValue/1}"; //this is the worker ID inputted by the respondent at the beginning of the survey
+	var worker_id = "${q://QID29/ChoiceTextEntryValue/1}"; //this is the worker ID inputted by the respondent at the beginning of the survey (question ID 29, text field 1)
 	var post_url = "https://www.sentimentit.com/api/sessions.json";
 	$j.ajax({ //get auth token
 		type: 'POST',
