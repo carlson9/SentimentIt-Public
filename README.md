@@ -1,7 +1,7 @@
 # SentimentIt-Public
 Public documentation for the sentimentIt R package and SentimentIt system workflow.
 
-To begin using the system, create a SentimentIt account at \url{https://www.sentimentit.com}. Next, create an MTurk account, and follow the instructions at \url{https://www.sentimentit.com/documentation/aws}. Rather than inputting the access key and secret key into an application, simply navigate to MyAccount on the SentimentIt website and enter the information in the corresponding fields. This will link your Amazon account to the SentimentIt system.
+To begin using the system, create a SentimentIt account at https://www.sentimentit.com. Next, create an MTurk account, and follow the instructions at https://www.sentimentit.com/documentation/aws. Rather than inputting the access key and secret key into an application, simply navigate to MyAccount on the SentimentIt website and enter the information in the corresponding fields. This will link your Amazon account to the SentimentIt system.
 
 When you want to start a new analysis, if you wish to require a certification follow the instructions under the QualtricsCertification folder. Name the banned and passed certifications something meaningful and remember the names.
 
