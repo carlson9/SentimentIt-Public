@@ -16,7 +16,7 @@ Qualtrics.SurveyEngine.addOnload(function()
 	});
 	function waitForElement () { //wait for the auth_token variable to be defined before executing next call
 		if(typeof auth_token !== "undefined"){
-			var get_url ="https://www.sentimentit.com/api/certifications/certname/turk_workers/" + worker_id + ".json?email=name@school.edu&auth_token="+auth_token; //replace with SentimentIt email and password, and change certname to the banned certification associated with the certification, e.g. bannedmoviereviews
+			var get_url ="https://www.sentimentit.com/api/certifications/certname/turk_workers/" + worker_id + ".json?email=name@school.edu&auth_token="+auth_token; //replace with SentimentIt email and password
 			$j.ajax({ //if the worker is banned, the next button will stay disabled
 				type: 'GET',
 				url: get_url,
