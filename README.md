@@ -3,7 +3,7 @@ Public documentation for the sentimentIt R package and SentimentIt system workfl
 
 To begin using the system, create a SentimentIt account at https://www.sentimentit.com. Next, create an MTurk account, and follow the instructions at https://www.sentimentit.com/documentation/aws. Rather than inputting the access key and secret key into an application, simply navigate to MyAccount on the SentimentIt website and enter the information in the corresponding fields. This will link your Amazon account to the SentimentIt system.
 
-When you want to start a new analysis, if you wish to require a certification follow the instructions under the QualtricsCertification folder. Name the banned and passed certifications something meaningful and remember the names.
+When you want to start a new analysis, if you wish to require a certification follow the instructions under the QualtricsCertification folder above. Name the banned and passed certifications something meaningful and remember the names.
 
 Once you have the distribution link for the survey, navigate to the MTurk requestor, Manage, Qualifications tab, and click on Create New Qualification Type. Name the qualification something simple and easily understood by workers. In the description field, enter a brief description, and include the link for the Qualtrics survey so workers can find the certification / training module. An ID will be generated. You will need this on the SentimentIt GUI. Do this a second time for the banned certification, with a different name and description.
 
