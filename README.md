@@ -5,15 +5,15 @@ To begin using the system, navigate to amazon mechanical turk at https://www.mtu
 
 1. Log in to the AWS Management Console at aws.amazon.com.
 
-2. In the menu at top-right, select ``Security Credentials''
+2. In the menu at top-right, select ''Security Credentials''
 
-3. Select ``Access Keys''
+3. Select ''Access Keys''
 
-4. Click ``Create New Key''
+4. Click ''Create New Key''
 
 5. Download the key file or copy-paste the values into a text document
 
-Next, create a SentimentIt account at https://www.sentimentit.com. There will be two fields, ``Mturk access key'' and ``Mturk secret key,'' in which you input the information obtained from mechanical turk. This will link your Amazon account to the SentimentIt system.
+Next, create a SentimentIt account at https://www.sentimentit.com. There will be two fields, ''Mturk access key'' and ''Mturk secret key,'' in which you input the information obtained from mechanical turk. This will link your Amazon account to the SentimentIt system.
 
 When you want to start a new analysis, if you wish to require a certification follow the instructions under the QualtricsCertification folder above. Name the banned and passed certifications something meaningful and remember the names.
 
